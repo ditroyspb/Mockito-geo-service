@@ -40,7 +40,7 @@ class LocalizationServiceImplTest {
 
     private static Stream<Arguments> source() {
         return Stream.of(
-                Arguments.of(Country.RUSSIA, "Äîáðî ïîæàëîâàòü"),
+                Arguments.of(Country.RUSSIA, "Добро пожаловать"),
                 Arguments.of(Country.USA, "Welcome"),
                 Arguments.of(Country.BRAZIL, "Welcome"),
                 Arguments.of(Country.GERMANY, "Welcome")
